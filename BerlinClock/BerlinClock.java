@@ -6,7 +6,7 @@ public class BerlinClock {
         int min=59;
         int hour1=16;
         
-        System.out.println("Berlin Clok: ");
+        System.out.println("Berlin Clock: ");
         System.out.print(seconds2(seg));//O
         System.out.print(hours5(hour1));//RRRR
         System.out.print(hours1(hour1));//RRRO
@@ -14,7 +14,7 @@ public class BerlinClock {
         System.out.print(seconds(seg));//YYYY
         System.out.println();
 
-        System.out.println("Digital Clok: ");
+        System.out.println("Digital Clock: ");
         System.out.print(hourConver(hours5(hour1))*5 + hourConver(hours1(hour1)));
         System.out.print(":");
         System.out.print((12*(min/12))+minuteConver(minutes(min)));
