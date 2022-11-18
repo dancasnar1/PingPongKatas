@@ -1,4 +1,4 @@
-Problem 1
+//Problem 1
 private boolean checkDimensions(CLIQUEUnit other, int e) {
     for(int i = 0, j = 0; i < e; i++, j += 2) {
         if (dims[i] != other.dims[i]
@@ -12,7 +12,7 @@ private boolean checkDimensions(CLIQUEUnit other, int e) {
 
 
 
-Problem 2
+//Problem 2
 @Override
 public double[] computeMean() {
     // Not supported except for singletons.
@@ -21,7 +21,7 @@ public double[] computeMean() {
 
 
 
-Problem 3
+//Problem 3
 protected PreDeConModel computeLocalModel(DoubleDBIDList neighbors, ....) {
     final int referenceSetSize = neighbors.size();
     ....
@@ -41,7 +41,7 @@ protected PreDeConModel computeLocalModel(DoubleDBIDList neighbors, ....) {
 
 
 
-Problem 4
+//Problem 4
 public String getStrippedSubstring() {
     int sstart = start, ssend = end;
     while(sstart < ssend) {
@@ -56,7 +56,7 @@ public String getStrippedSubstring() {
 
 
 
-Problem 5
+//Problem 5
 public static final ByteSequence prefixEndOf(ByteSequence prefix) {
   byte[] endKey = prefix.getBytes().clone();
   for (int i = endKey.length - 1; i >= 0; i--) {
@@ -70,7 +70,7 @@ public static final ByteSequence prefixEndOf(ByteSequence prefix) {
 
 
 
-Problem 6
+//Problem 6
 private static byte char64(char x) {
   if ((int)x < 0 || (int)x > index_64.length)
     return -1;
@@ -79,7 +79,7 @@ private static byte char64(char x) {
 
 
 
-Problem 7
+//Problem 7
 @Override
 public void putToCache(PutRecordsRequest putRecordsRequest)
 {
@@ -101,7 +101,7 @@ public void putToCache(PutRecordsRequest putRecordsRequest)
 
 
 
-Problem 8
+//Problem 8
 private void shiftRightDestructive(int wordShifts,
                                    int bitShiftsInWord,
                                    boolean roundUp)
@@ -135,7 +135,7 @@ private void shiftRightDestructive(int wordShifts,
 
 
 
-Problem 9
+//Problem 9
 public void logSargResult(int stripeIx, boolean[] rgsToRead)
 {
   ....
@@ -154,7 +154,7 @@ public void logSargResult(int stripeIx, boolean[] rgsToRead)
 
 
 
-Problem 10
+//Problem 10
 public void testSignSHA256CompleteEvenHeight2() {
     ....
     int height = 10;
@@ -175,7 +175,7 @@ public void testSignSHA256CompleteEvenHeight2() {
 
 
 
-Extra problem
+//Extra problem
 @Override
 public boolean equals(Object o)
 {
