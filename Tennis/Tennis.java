@@ -1,7 +1,7 @@
 package Tennis;
 
 public class Tennis {
-	public static String [] points = {"0", "15", "30", "40", "A"};
+    public static String [] points = {"0", "15", "30", "40", "A"};
     public static int server = 0;
     public static int receiver = 0;
     
